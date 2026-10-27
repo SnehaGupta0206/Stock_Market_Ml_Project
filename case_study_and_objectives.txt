@@ -1,0 +1,57 @@
+Case Study
+
+Project: Forecasting Indian Stock Market Indices using Machine Learning
+The Story
+
+For eleven years the firm's flagship product has been the "Daily Market Outlook" —
+a morning note on India's three key NSE indices (NIFTY 50, NIFTY BANK, NIFTY MIDCAP),
+written entirely from the experience and intuition of one veteran analyst.
+
+This Monday, an email from the firm's oldest client lands on the desk of Priya Menon,
+Head of Research:
+
+> "Your note said NIFTY BANK would 'remain range-bound with a positive bias.' It fell
+> nearly 4% in two sessions. On what evidence was that view based? We are
+> reconsidering our subscription."
+
+Priya's decision is instant: no view leaves the office without data behind it — starting today.
+She hands the assignment to her newest data-science intern (me), along with a licensed
+research archive of twelve years of NSE index data —
+[Forecasting of Indian Stock Market Indices, Mendeley Data, doi:10.17632/swrw7d78ss.1,
+CC BY 4.0](https://data.mendeley.com/datasets/swrw7d78ss/1):
+~8,200 trading days (2013 → 2024), 20 columns per day — previous day's Open/High/Low/
+Close/Volume and 14 technical indicators — with one target: today's closing price
+Close_(t).
+
+Her brief is one sentence: "Explain how these indices actually behave, prove which
+signals genuinely work, and tell me where tomorrow's close is heading."
+
+
+Project Objectives (the insights we set out to extract)
+
+Objective 1 — Wealth creation over the long run
+Identify (which index rewarded investors the most between 2013–2024), and how each of
+the three behaved through rallies, corrections, and the 2020 crash-and-recovery —
+revealing whether large-cap stability, banking intensity, or mid-cap growth built the
+most wealth.
+
+Objective 2 — The true risk personality of each index
+Quantify (which index is genuinely the riskiest and exactly when market risk spikes),
+by exposing the volatility regimes hidden inside daily returns — turning the veterans'
+"feelings" about risk into measurable fact.
+
+Objective 3 — The predictive power of trading volume
+Determine (whether heavy trading volume contains an early signal for the size and
+direction of the next price move) — confirming or retiring the classic trader's rule
+"volume confirms the trend" with evidence from twelve years of data.
+
+Objective 4 — Which technical indicators genuinely earn their place
+Separate the (few indicators that truly carry signal about the closing price) from
+the ones that are noise or merely repeat each other — discovering which 3–5 signals an
+analyst should actually watch every morning.
+
+Objective 5 — How far can machines see into tomorrow?
+Establish (how accurately the next day's closing price and direction can be predicted),
+and identify the single most reliable machine-learning model for the job —
+the forecast that will anchor every future Daily Market Outlook.
+
